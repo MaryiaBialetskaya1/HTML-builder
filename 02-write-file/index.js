@@ -11,7 +11,6 @@ stdin.on('data', data => {
     writeableStream.write(data.toString());
   }
   else {
-    //stdout.write('Спасибо, пока-пока!');
     process.exit();
   }stdout.write('Напиши мне что-нибудь еще:\n'); 
 });
